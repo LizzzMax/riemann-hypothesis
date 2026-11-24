@@ -129,7 +129,13 @@ whether it assigns the goal without checking the term's type or checks it with `
 Both hide a slow unification instead of fixing it, and the first leaves a wrong term to show up only
 as a kernel error at the end of the declaration. Some files already have one, such as
 `exact_by_kernel`; don't copy those. If `exact` is slow because the term and the goal only agree
-after unfolding, work out what Lean has to unfold and rewrite with a lemma for it.
+after unfolding, leave the proof as it is and open an issue with the profile instead.
+
+### Working around the unused-section-variable linter
+
+Don't speed up a theorem by putting `omit … in` or `set_option linter.unusedSectionVars false in`
+in front of it. That skips the linter's check for one declaration and leaves it as slow as before
+everywhere else. If the linter is what makes your file slow, open an issue with the profile.
 
 ### Small speed-ups to the CI scripts
 
