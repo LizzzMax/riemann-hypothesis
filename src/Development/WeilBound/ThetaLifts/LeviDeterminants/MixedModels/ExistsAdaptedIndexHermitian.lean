@@ -108,7 +108,8 @@ theorem exists_adapted_index_hermitian : ∀ (F E : Type) [Field F] [NumberField
     rw [e1, e1, hc]
     simp only [b, π]
     ring
-  let ε : Fin n × Fin d ≃ (Fin d × Fin 2) ⊕ Fin n₁ × Fin d := Fintype.equivOfCardEq (by simp [hH.rank]; ring)
+  let ε : Fin n × Fin d ≃ (Fin d × Fin 2) ⊕ Fin n₁ × Fin d :=
+    Fintype.equivOfCardEq (by simp only [Fintype.card_prod, Fintype.card_sum, Fintype.card_fin, hH.rank]; ring)
   let β := Module.finBasisOfFinrankEq F E hB.cm.2.2.1
   let βA := Algebra.TensorProduct.basis (AF F) β
   let Tr := Algebra.trace (AF F) (AE F E)
@@ -134,7 +135,9 @@ theorem exists_adapted_index_hermitian : ∀ (F E : Type) [Field F] [NumberField
     { toFun := fun z => (glue ε (p z) (M₁.co.e (π z)).1, glue ε (q z) (M₁.co.e (π z)).2)
       map_add' := fun z z' => by
         rw [Prod.mk_add_mk, glue_add, glue_add, hπ.map_add (f := _), map_add (f := _)]
-        congr 2 <;> funext k <;> simp [p, q, hb.map_add (f := _), hD.map_add (f := _), mul_add, add_comm]
+        congr 2 <;> funext k
+        · simp only [p, hb.map_add (f := _), Pi.add_apply, map_add, Finsupp.coe_add]
+        · simp only [q, hD.map_add (f := _), Pi.add_apply, mul_add, map_add, neg_add]
       map_smul' := fun c z => by
         rw [Prod.smul_mk, glue_smul, glue_smul, hπ.map_smul, map_smul]
         congr 2 <;> funext k <;> simp [p, q, hb.map_smul, hD.map_smul] }
