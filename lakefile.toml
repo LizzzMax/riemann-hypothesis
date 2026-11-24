@@ -66,6 +66,13 @@ name = "cache"
 root = "scripts.Cache"
 srcDir = ".."
 
+[[lean_exe]]
+name = "lint-style"
+root = "scripts.LintStyle"
+srcDir = ".."
+allowNonModules = true
+supportInterpreter = true
+
 # Stock Lake also reads this file as its cache-service configuration.
 [cache]
 defaultService = "riemann-hypothesis"

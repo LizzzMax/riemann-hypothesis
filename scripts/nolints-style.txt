@@ -1,0 +1,417 @@
+-- Existing style debt at main 1da818b50f1e18808db2792b9dc735bda8cb84d8.
+-- Remove entries as the corresponding sources are cleaned up.
+-- Mathlib text exceptions match a file and error kind; line numbers are informational.
+-- A module-name entry exempts only that existing module name; its contents are still checked.
+
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.AlgebraMapNormOfBasisOneSqrt
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsFiniteOrthogonalLengths
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsFiniteRepresentatives
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsFiniteUnitaryClassesOfDualEqSmul
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsIntMulIsIntegralOfTrace
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsShortOfTraceDet
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.AbsPowOneNotIsAlgRat
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.AdmissibleBaseChartRing
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.AntisymmFibrePointTwo
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ArBirational
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ChernWeilNumbers
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.CuspDiscreteDecompositionGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.CuspRapidDecaySiegelGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DeRhamPotSemistable
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DiscreteSeriesCoverExistsIff
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DiscreteSeriesUpqExistsIffDsExists
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DiscreteSeriesUpqUniqueOfClassification
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DsExistsOfDiscreteSeriesExists
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsNormLeHeightPow
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsOfIsDSPar
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsSpanFormsNeBot
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsSteinberg
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsUniqueHcharOfFiniteOrder
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExplChi
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExplZeta
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.FiniteDimensionalCoeffSpan
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.FixedNeBotOfEquiv
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.FormalDegreeCompactDualIff
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.GenericOfIsIsoRestrict
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.GoodTopChernForm
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HarishChandraFinite
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasDRepIffHasDerivAt
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasExponentZeroIff
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HtCard
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.InterPolyProdSum
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.IsExcRat
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.IsPrincipalMapOfAlgHom
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.Jutila
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.LocalLanglandsGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.LogDerOne
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.MumfordProportionality
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.NormalCompletionSt
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.NotIsCuspFunOnePlane
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.PageThm
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.QuadraticHeckeZeroEstimates
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.SiegelToroidalIntegral
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ToroidalChartsForFan
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.WeilRepresentationUnitaryPair
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ZeroCount
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeriesUnitary₂.DiscreteSeriesClassificationIff
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeriesUnitary₂.DiscreteSeriesCoefficientsCuspidalIffOneSided
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeriesUnitary₂.MaxMass
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.DiscreteSeries₂.Poulsen
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.AbelianDeRhamStructure
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.AbelianDieudonne
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.AbelianHodgeDeRham
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.AbelianLifting
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.AbelianUnobstructed
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ArFormExists
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.BijectiveCechDeRhamComparisonDegreeOne
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CanonicalOfAbelianDeRham
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CharChPartZero
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ChernDegreeComplex
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CmCurveGoodOutsidePrimePremises
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CrysToDRBijective
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CrystallinePull2SumCup
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CubeTheorem
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.DeRhamVectorExtension
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.DenseInterior
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.DiscreteSpectrumGLTwoOfCuspidalSpectrum
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EisensteinIsotropicLine
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EmbGLMemRealSU
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EqOfIsometricTrivShift
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EqZeroOfCobOneEqZero
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsAlgClosedBaseChange
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsCrystalPairing
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsCuspidalNeZero
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsEqOfNatCastMulMem
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsUniqueIsConnOfLift
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsUniquePairsToTower
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.FormalAlgebraisation
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.GaussManinPeriods
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.GeometricallyConnectedOfIsIsoRestrict
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.GindikinKarpelevich
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.GrothendieckDeformation
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HeckeFunctionalEquationAbs
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HeckeTateFunctionalEquationCM
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HenselianLocalRingOfIsAdicComplete
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HilbertKodairaSpencer
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HoweDualityReal
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.HoweDualityUnitary
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.InjectiveOfSmulMemRange
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.InterNumDetNonposSplitTorus
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IrreducibleAdmissibleGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsAdditiveOfUniversal
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsCMTypeEmbedding
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsCompactDualHaar
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsConstAlongSingleton
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsGenericIffIsGenericFor
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsHolFormConst
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsLogCanonicalMultipleCanonical
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsMultiHomogeneousFixFirstBlock
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsNoetherianRingDualNumber
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsRapoportOfBasis
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsSmoothModerateOfIsAutFunSm
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsTypeIsRealConst
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.KawamataViehweg
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.L2ExtensionLogCanonical
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.OfPositiveTrivial
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.PDivisibleGroupsOverOC
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.PartialZetaFunctionalEquation
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.PeriodComparison
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.PoincareDeRhamDuality
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.PointSeparationPair
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.PrasadVolumeSU
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.PrismaticDieudonneAt
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ResidueDegreeOfIsClosedImmersion
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ScholzeWeinsteinB
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.SerreHolomorphicSections
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.SiegelKlingenDeligneRibet
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.SmallSecTensTriv
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.StandardFunctorsFiniteLength
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.TamagawaSpecialUnitary
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.TateUnramifiedOfTorsionUnramified
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.TopSelfEqLengthOfSmooth
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ToroidalCompactification
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ToroidalCompactificationBis
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.VolGe
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.VolHomog
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.WeilEisensteinSiegelConvergence
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.WeilRepresentationExists
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.WeilSiegelFormula
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.WeilThetaConvergence
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BaseChangeDefiniteUnitary
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BaseChangeIsobaric
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BhattScholzeCrystallineLattices
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BhattScholzeIntegral
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BrauerDegreeZero
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ChebotarevDegreeOneIffCheb
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ChebotarevOpenNormalIffDegreeOne
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ChevalleyUnits
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.CohDimTwoLocalOfLocalFiniteness
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ConclusionAbsPow
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ContinuousAdeleNorm
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ContinuousCycMod
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.CuspidalMultiplicityOne
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.DepthZeroCuspidalLL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.DepthZeroInduction
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.DepthZeroInertia
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.DepthZeroSupport
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.DepthZeroTypeInertia
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.DiscreteSpectrumResidual
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExhUnipRadOne
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsCoprimePowOfMemIneKer
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsIdealsPrimeToEqSpan
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsLeKsOfGood
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsPrimitiveRootPow
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.GaloisRepOfPolarizedCuspidal
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.GenericUnlinkedGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.GreenCuspidalIff
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.GreenRegularCharacters
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.HeckeLAdicCharacterAboveIff
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.HeckeLAdicCharacterCrystalline
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.HeckeLAdicCharacterDeRham
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.IsComplementaryProductOfIsCuspidal
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.IsDiscreteOfIsNormalised
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.IsNormalisedOfIsDiscrete
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.LanglandsDataDualGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.LanglandsExhaustionGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.LanglandsMultisegments
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.LocalConverseGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.MetAndHolds
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.NotIsGenericDetRepTwo
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.OneSubPhiOntoOfFilZero
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PoitouTateNineTermTransgressionZeroApply
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PoitouTateNormalised
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PstAndWdAtOfIsRegAlg
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.RationalDualityOfAllCoefficients
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.RestrictMem
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.SquareIntegrableSegment
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.StandardCosocleGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.StrongMultiplicityOne
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.TauOneCharacter
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.TrivialOnInertiaOfUnr
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.AlgebraicCharacterWD
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.ArthurClozelStrongTC
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.CaraianiLocalGlobal
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.CaraianiLocalGlobalDual
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.CaraianiTempered
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.ClozelCohomologicalModel
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.ClozelPurity
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.ConclusionFinite
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.DepthZeroJacquetInjective
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.EssSquareIntegrableSegments
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.GaloisRepOfPolarizedPair
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.GelfandKazhdanDual
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.HeckeLAdicParameterAbove
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.HoweDualityGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.HoweUnram
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.HypothesesAbsDet
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.IsTemperedGLOfIsUnitaryLSeg
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.LocalGlobalAboveL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.MoyPrasadJacquetIsoTrivial
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.NotIsTemperedGLDetRepTwo
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.NotPairedId
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.RegularAlgebraicPurity
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.TateDualCrystalline
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.TemperedProductOfSquareIntegrable
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.TotallyDisjointProductIrreducible
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.UnlinkedProductIrreducible
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.WignerVanishingGL
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Landherr₂.DimEqZero
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Landherr₂.ExistsNormTensor
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.Landherr₂.LandherrStIffLandherr
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.SemistableReduction₂.SemistableReductionSt
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.AdelicConjTransposeBlockMatrixTwoByTwoFin
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.AutomorphicFormsFiniteIdeal
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.EisPoleLEZeroOfLt
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.LeftInvOfIsSection
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.SiegelEisensteinContinuationOfDoublingMethod
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.SiegelEisensteinPolesStd
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.SiegelWeilUnitaryConvergent
+-- module-name: Development.AbelianVarietyTheory.PublishedTheorems.SiegelWeil₂.SiegelWeilUnitarySchrodinger
+-- module-name: Development.AutomorphicArithmetic.AutomorphicVarieties.CMFieldExponentialBounds.primesex
+-- module-name: Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.LocalRingsCompletion.adicComplete
+-- module-name: Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.LocalRingsCompletion.dvrFinite
+-- module-name: Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.LocalRingsCompletion.nakayama
+-- module-name: Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.HypothesesZ'
+-- module-name: Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.HypothesesZ''
+-- module-name: Development.AutomorphicArithmetic.ConductorsKronecker.dataField
+-- module-name: Development.AutomorphicArithmetic.DedekindLFunctions.LandauTheorems.landauWindow
+-- module-name: Development.AutomorphicArithmetic.FrobeniusLocalisation.inertQ
+-- module-name: Development.AutomorphicArithmetic.MeanSquareBounds.pairEx
+-- module-name: Development.AutomorphicArithmetic.MeanSquareBounds.realCond
+-- module-name: Development.AutomorphicArithmetic.PrimitiveCosets.charsA
+-- module-name: Development.AutomorphicArithmetic.PrimitiveCosets.hostFactsS
+-- module-name: Development.AutomorphicArithmetic.ShortNorms.hostOfFieldOf
+-- module-name: Development.AutomorphicArithmetic.ShortNorms.levelData
+-- module-name: Development.AutomorphicArithmetic.ShortNorms.normPrimesN
+-- module-name: Development.AutomorphicArithmetic.ThickFrames.expectationSpec
+-- module-name: Development.AutomorphicArithmetic.ThickFrames.topsGroup
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Algebra₂.FarguesExact
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Algebra₂.FarguesHodgeTate
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Algebra₂.QuotientByFiniteFlatStatement
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Algebra₂.RegularHypothesesAndConclusion
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Algebra₂.ZarhinStatement
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Geometry₂.ConclusionOfSmooth
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Geometry₂.GagaSections
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Geometry₂.NefRR
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Geometry₂.NotSubsetOfDenseCompl
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Jets₂.IsPermissibleOfCentre
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Metrics₂.PoincareLelong
+-- module-name: Development.AutomorphicSpectrum.PublishedTheorems.Metrics₂.PoincareLelongInv
+-- module-name: Development.EtaleCohomology.EtaleSheaves.longPf
+-- module-name: Development.EtaleCohomology.EtaleSheaves.stupidPf
+-- module-name: Development.EtaleCohomology.TateTwists.acycIffPf
+-- module-name: Development.EtaleCohomology.TateTwists.acycPf
+-- module-name: Development.EtaleCohomology.TateTwists.conePf
+-- module-name: Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.GlobalSerreRelations.gr_aff
+-- module-name: Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.ValuationChainProofs.unitB
+-- module-name: Development.WeilBound.CoreStatements.PadicHodgeComparison.GoodCoverEigenspaces.CubeCechEquivalences.HodgeBC_map
+-- module-name: Development.WeilBound.CoreStatements.PublishedTheorems.JacquetShalikaBound.lift_levelP_alt₂
+-- module-name: Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.X_join_model
+-- module-name: Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LFixW_C
+-- module-name: Development.WeilBound.ThetaLifts.Reductions.WeilPairs.LatRepB_A
+-- module-name: Formalism.HermitianCurvature.HermitianCurvatureProofs.CutEX_UwTop
+-- module-name: Formalism.HermitianCurvature.HermitianCurvatureProofs.CutSE_RDWave
+-- module-name: Formalism.HermitianCurvature.HermitianCurvatureProofs.CutSE_TopSpec
+-- module-name: Formalism.HermitianCurvature.HermitianCurvatureProofs.Cut_BPEq
+-- module-name: Formalism.HermitianCurvature.HermitianCurvatureProofs.cut_GCore_GTConnCut
+-- module-name: Formalism.HermitianCurvature.HermitianCurvatureProofs.cut_GCore_GTSS
+-- module-name: Formalism.HermitianCurvature.HermitianCurvatureProofs.cut_GCore_GenTransferKapCut
+-- module-name: Formalism.HermitianCurvature.HermitianCurvatureProofs.cut_JA_LocLemmas
+-- module-name: Formalism.HermitianCurvature.HermitianCurvatureProofs.cut_PtwCut
+-- module-name: Formalism.HermitianCurvature.HermitianCurvatureProofs.cut_TypeNormMeas_TC
+-- module-name: Formalism.LocalRingCardinality.DataParams₂
+-- module-name: Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.AllowColLt
+-- module-name: Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.KappaZero
+-- module-name: Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.MemFlagUnipotent
+-- module-name: PositivityTheory.AutomorphicForms.PublishedInputs.CyclicBaseChange.P_SSatEx
+-- module-name: PositivityTheory.AutomorphicForms.PublishedInputs.NonzeroTypes.Isotypic₂
+-- module-name: PositivityTheory.AutomorphicForms.PublishedInputs.NonzeroTypes.Iwahori₂
+-- module-name: PositivityTheory.AutomorphicForms.PublishedInputs.NonzeroTypes.P_Jmul
+-- module-name: PositivityTheory.AutomorphicForms.PublishedInputs.NonzeroTypes.Uniformizer₂
+
+src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DegenerationThetaSeriesAlgebraicOverFractionFielStatement.lean : line 1025 : ERR_SEM : This line contains a space before a semicolon
+src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsChowFormGenericHyperplaneSection.lean : line 227 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ũ' (U+0169). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FinitePIsogenyTargetsAtCharPPoint.lean : line 239 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ũ' (U+0169). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasTotalBiChains.lean : line 186 : ERR_SEM : This line contains a space before a semicolon
+src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsNilDualFrobenius.lean : line 1557 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ũ' (U+0169). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsInvariantLift.lean : line 474 : ERR_SEM : This line contains a space before a semicolon
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsInnerProductSpace.lean : line 90 : ERR_SEM : This line contains a space before a semicolon
+src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AdjEqZeroOfSymplO.lean : line 588 : ERR_SEM : This line contains a space before a semicolon
+src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/ExistsPrimitiveRootPow.lean : line 73 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'Ĥ' (U+0124). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/ExistsPrimitiveRootPow.lean : line 62 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'Ш' (U+0428). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/SymmetricPowerTransfer/SignatureIntegrality/SignatureTorusFixedPoints/OkGOrb.lean : line 253 : ERR_SEM : This line contains a space before a semicolon
+src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/RadicalStalks/OneLeft.lean : line 62 : ERR_SEM : This line contains a space before a semicolon
+src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/ThetaParseval/ThetaKernels/DoubledWeilApplyBoxFunEqBoxFunLeft.lean : line 981 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ũ' (U+0169). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/ThetaParseval/ThetaKernels/TPGTop.lean : line 1428 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ĥ' (U+0125). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/TwistedLogCocycleD.lean : line 609 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ũ' (U+0169). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsFundamentalSet.lean : line 423 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ũ' (U+0169). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/WeilBound/CoreStatements/PadicHodgeComparison/EtaleCohomologyComparison/DifferentialFormsCech/AffineHodgeIsomorphisms/HodgeAffineIsoType.lean : line 498 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ŷ' (U+0177). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/WeilBound/CoreStatements/PublishedTheorems/GlobalEulerCharacteristic/GaloisCohomologyRatios/LemmaX.lean : line 101 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/WeilBound/CoreStatements/PublishedTheorems/GlobalEulerCharacteristic/GaloisCohomologyRatios/ModuleFiniteHomRep.lean : line 54 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/WeilBound/CoreStatements/PublishedTheorems/GlobalEulerCharacteristic/GaloisCohomologyRatios/NormalOfGsOpenSubgroupNormal.lean : line 49 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/WeilBound/CoreStatements/PublishedTheorems/GlobalEulerCharacteristic/GaloisCohomologyRatios/Places.lean : line 54 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/WeilBound/CoreStatements/PublishedTheorems/GlobalEulerCharacteristic/GlobalEulerCharOfLemmaX.lean : line 141 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/WeilBound/CoreStatements/PublishedTheorems/GlobalEulerCharacteristic/WorkKilledA.lean : line 56 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/WeilBound/CoreStatements/PublishedTheorems/GlobalEulerCharacteristic/WorkKilledC.lean : line 57 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Development/WeilBound/RepresentationTheoryGL/SiegelWeilProof/HolomorphicContinuation/GlobalGaussLaws/PsiInnerSIns.lean : line 113 : ERR_SEM : This line contains a space before a semicolon
+src/Formalism/GaloisCohomology/LocalTateDualityK.lean : line 75 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Formalism/HermitianCurvature/HermitianCurvatureProofs/TheSectionStab.lean : line 279 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ĥ' (U+0125). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Formalism/PeriodIntegrals/OrbitalBoundsConclusion/AlgWtHwUnq.lean : line 568 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ũ' (U+0169). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/Formalism/SharpRestriction/LevelLetterCocycles/DvrLatticeRank/U2ringPfZetaO.lean : line 356 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'Ŵ' (U+0174). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/AutomorphicForms/CuspidalSplittingProjective.lean : line 473 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ũ' (U+0169). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/AutomorphicForms/PartialDifferential/AnalyticHypoelliptic.lean : line 1171 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist 'ũ' (U+0169). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/GlobalFields/CyclotomicCharacters/DegreeDecomposition.lean : line 21 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/GlobalFields/GlobalReciprocity/General.lean : line 48 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/GlobalFields/GlobalReciprocity/InfKerDegreeLeOfLeSupZhatField.lean : line 31 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/GlobalFields/GlobalReciprocity/NormSquare.lean : line 16 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/GlobalFields/IdeleClassGroup/IdeleClassEquivIdeleClassMapOfComm.lean : line 17 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/GlobalFields/IdeleClassGroup/Invariants.lean : line 133 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/GlobalFields/IdeleClassGroup/InvariantsGalois.lean : line 14 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/GlobalFields/NormResidueSymbol/Cyclotomic.lean : line 18 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/GlobalFields/NormResidueSymbol/CyclotomicCompositum.lean : line 21 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/GlobalFields/NormResidueSymbol/CyclotomicImage.lean : line 94 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation.lean : line 37 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/ClassLevels.lean : line 20 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/ClassLimitDefs.lean : line 18 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/CupDecompositionGlobal.lean : line 114 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/CupLocal.lean : line 16 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/IdeleLimits/NormalFixingSubgroupGaloisClosure.lean : line 56 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/IdeleLimits/Sequence.lean : line 20 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/IdeleLimits/SmulOfEqOfMemFixingSubgroup.lean : line 55 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/IdeleRestriction.lean : line 18 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/IdeleRestriction/Components.lean : line 13 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/IdeleRestriction/ExistsInfIdelesLocalResIdelesResFieldEqZeroOfInf.lean : line 25 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/IdeleRestriction/IsDiscreteRepResGlobalDecompLimitRep.lean : line 17 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/LocalDegrees.lean : line 29 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/LocalDegrees/Layers.lean : line 20 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/LocalLimits/ApplyCompletionEmbeddingOfLocalDecompHomEqOne.lean : line 20 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/LocalLimits/IsScalarTowerFiniteSubfieldAlgebraicClosure.lean : line 64 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/LocalResConj.lean : line 13 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/LocalRestriction.lean : line 195 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/ResLocal.lean : line 13 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/SignsCup.lean : line 144 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/Splitting.lean : line 57 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/SymbolBridgeCyclotomic.lean : line 29 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalEulerCharacteristic/DefsForms.lean : line 91 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalEulerCharacteristic/GlobalEulerFormulaInf.lean : line 16 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalEulerCharacteristic/GsEulerRatioShortExactOfBijective.lean : line 168 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalEulerCharacteristic/MemShaSubmoduleCohomologyAddEquivOfEquivIff.lean : line 47 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalEulerCharacteristic/RealHerbrand.lean : line 128 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalEulerCharacteristic/ShaCount.lean : line 68 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalEulerCharacteristic/Shapiro.lean : line 68 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalEulerCharacteristic/ShapiroReal.lean : line 58 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalEulerCharacteristic/Stabilizers.lean : line 20 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/GlobalEulerCharacteristic/StabilizersDefs.lean : line 96 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/PoitouTate/BrauerInvZOfIsSepClosureCohomologyULiftIntAddEqu.lean : line 179 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/PoitouTate/Deduction.lean : line 21 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/PoitouTate/NonemptyOfNatCastMemOfNeOne.lean : line 91 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/PoitouTate/PoitouTateNineTermGs.lean : line 93 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/PoitouTate/RealEvenFree.lean : line 24 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/PoitouTate/RealOdd.lean : line 867 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/PoitouTate/RealTraceMap.lean : line 30 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/PoitouTate/ZmodToQZCompactCohomologyResMapOfLocalInv.lean : line 583 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RealPlaces/GSDefs.lean : line 18 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RealPlaces/Vanishing.lean : line 20 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RealPlaces/VanishingMackey.lean : line 167 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RealPlaces/VanishingMackeyPlaces.lean : line 19 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RealPlaces/VanishingMackeyTransfer.lean : line 71 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RealPlaces/VanishingPrimes.lean : line 27 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RealPlaces/VanishingUnits.lean : line 104 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseClass.lean : line 248 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseClassIdele.lean : line 144 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseCores.lean : line 140 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseCupFormula.lean : line 22 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseCupKummer.lean : line 22 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseCupLocal.lean : line 152 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseDefs.lean : line 82 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseFixed.lean : line 17 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseInputs.lean : line 22 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseInv.lean : line 64 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseKummer.lean : line 22 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseKummerDefs.lean : line 18 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseKummerDelta.lean : line 19 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseLevel.lean : line 109 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BaseLocal.lean : line 140 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BijectiveGsLocalInvRootsOfPlaces.lean : line 145 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/Brauer.lean : line 60 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BrauerDefs.lean : line 60 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BrauerDivisor.lean : line 78 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BrauerFrob.lean : line 30 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BrauerLocalDefs.lean : line 20 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BrauerLocalVal.lean : line 21 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BrauerOrd.lean : line 22 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BrauerSplit.lean : line 29 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/BrauerSplitLayers.lean : line 24 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/ClassFieldGSLocal.lean : line 125 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/CohomologyMapAlongInvariantsGsKernelMorCompGsBra.lean : line 20 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/Dimension.lean : line 74 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/ExistsCoprimeSmulCohomologyTwoGsKernel.lean : line 27 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/Finite.lean : line 110 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/FiniteOpen.lean : line 57 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/FiniteRoots.lean : line 87 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/FiniteSetOfNsmulEqZeroQZ.lean : line 21 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/HighSUnits.lean : line 34 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/IsDiscreteRepResIntRepTrivGs.lean : line 21 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/MemMaxUnramifiedOutsideOfMemLevelOfField.lean : line 16 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/MulDistribMulActionGalUnitsFiniteSubfield.lean : line 78 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/SurjectiveOfInjectiveOfInjective.lean : line 334 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For addinerror: found 3658 new style error(s)! Try `lake exe lint-style --fix` to apply automatic fixes.
+src/GroundTheory/ProfiniteCohomology/RestrictedRamification/SurjectiveOfInjectiveOfInjective.lean : line 83 : ERR_UNICODE : This line contains a unicode character that is not on the allowlist '̄' (U+0304). For adding new symbols see `Mathlib.Linter.TextBased.UnicodeLinter.othersInMathlib`.

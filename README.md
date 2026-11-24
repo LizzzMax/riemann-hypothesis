@@ -87,6 +87,12 @@ lake comparator --config comparator.json \
 
 ## CI
 
+Run `lake exe lint-style` for Mathlib's text-based style checks on every tracked Lean source
+under `src/`, including modules without a library entrypoint. Existing exceptions are recorded
+in `scripts/nolints-style.txt`; remove entries as they are fixed. Text exceptions follow
+Mathlib's file-and-error format. A `-- module-name: Name` entry exempts only that existing
+module name; its source contents are still checked.
+
 To lend a Linux machine with plenty of memory and disk, see
 [CI-RUNNERS.md](verification/CI-RUNNERS.md). The CI scripts are in [`scripts/`](scripts/) and
 [`tools/ci_native/`](tools/ci_native/README.md).

@@ -1,0 +1,52 @@
+name: Text style
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - src/**
+      - scripts/LintStyle.lean
+      - scripts/nolints-style.txt
+      - scripts/tests/test_lint_style.py
+      - lakefile.toml
+      - lake-manifest.json
+      - lean-toolchain
+      - .github/workflows/lint-style.yml
+  pull_request:
+    paths:
+      - src/**
+      - scripts/LintStyle.lean
+      - scripts/nolints-style.txt
+      - scripts/tests/test_lint_style.py
+      - lakefile.toml
+      - lake-manifest.json
+      - lean-toolchain
+      - .github/workflows/lint-style.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  style:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MATHLIB_CACHE_GET_URL: https://cache.mathlib.org/mathlib4
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install elan
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o "$RUNNER_TEMP/elan-init.sh"
+          sh "$RUNNER_TEMP/elan-init.sh" -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Fetch the text linter's Mathlib dependencies
+        run: lake exe mathlib/cache get Mathlib.Tactic.Linter.TextBased
+      - name: Build the text linter
+        run: lake build lint-style
+      - name: Check coverage and failure cases
+        run: python3 scripts/tests/test_lint_style.py
+      - name: Check source style
+        run: lake exe lint-style
