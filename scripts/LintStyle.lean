@@ -2,7 +2,9 @@ import Mathlib.Tactic.Linter.TextBased
 
 open Lean Lean.Linter Mathlib.Linter.TextBased
 
-def main : IO UInt32 := do
+def main (args : List String) : IO UInt32 := do
+  unless args.isEmpty do
+    throw <| IO.userError "Usage: lake exe lint-style (read-only; no options)"
   let result ← IO.Process.output { cmd := "git", args := #["ls-files", "-z", "--", "src/*.lean"] }
   unless result.exitCode == 0 do
     throw <| IO.userError result.stderr

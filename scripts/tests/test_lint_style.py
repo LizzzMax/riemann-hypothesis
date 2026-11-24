@@ -23,8 +23,15 @@ class LintStyleTests(unittest.TestCase):
         path.write_bytes(content)
         subprocess.run(["git", "add", "--", name], cwd=self.root, check=True)
 
-    def check(self):
-        return subprocess.run([str(EXECUTABLE)], cwd=self.root, capture_output=True, text=True)
+    def check(self, *args):
+        return subprocess.run([str(EXECUTABLE), *args], cwd=self.root, capture_output=True, text=True)
+
+    def test_read_only_cli_rejects_options(self):
+        self.track("src/Example/Leaf.lean")
+        result = self.check("--fix")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("read-only", result.stdout + result.stderr)
+        self.assertEqual((self.root / "src/Example/Leaf.lean").read_bytes(), VALID)
 
     def test_leaf_modules_and_untracked_files(self):
         self.track("src/Example/Leaf.lean")
